@@ -1,0 +1,114 @@
+.main-header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.main-header .right {
+  display: flex;
+  align-items: center;
+}
+
+.main-header .middle a {
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin: 0 0.3em;
+}
+
+.main-header .middle {
+  display: flex;
+  align-items: center;
+}
+
+.main-header .middle .link-item {
+  display: flex;
+  align-items: center;
+  margin: 0 1em;
+}
+
+.main-header .down-arrow {
+  cursor: pointer;
+}
+
+.main-header .company-icon {
+  width: 34px;
+  height: 41px;
+  background: #39db4a;
+  opacity: 1;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header .left .company-name {
+  margin-left: 1em;
+}
+
+.main-header .left {
+  display: flex;
+  align-items: center;
+}
+
+.main-header .contact-btn {
+  display: flex;
+  align-items: center;
+  background-color: #39db4a;
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  padding: 0.3em 0.8em;
+  letter-spacing: 0%;
+  border-radius: 40px;
+  color: #ffffff;
+  width: 110px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.main-header .company-btn img {
+  width: 24px;
+  height: 24px;
+}
+
+.main-header .right {
+  width: 16%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header a.active {
+  color: #39db4a;
+}
+
+@media screen and (max-width: 786px) {
+  .main-header {
+    margin-top: 1em;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    row-gap: 1em;
+  }
+
+  .main-header .left,
+  .main-header .middle {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .main-header .right {
+    width: 60%;
+    margin: auto;
+  }
+}
