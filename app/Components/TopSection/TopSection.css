@@ -210,6 +210,11 @@ button {
 }
 
 @media screen and (max-width: 786px) {
+
+.top-section .left-section h2 {
+  font-size: 30px !important;
+}
+
   .top-section {
     flex-direction: column;
     width: 100%;

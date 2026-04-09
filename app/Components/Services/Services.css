@@ -289,4 +289,8 @@ button {
     flex-wrap: wrap;
     flex-direction: column;
   }
+
+  .services-section .cards-wrapper .card {
+    width:100%;
+  }
 }
