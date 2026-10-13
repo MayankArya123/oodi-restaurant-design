@@ -119,7 +119,7 @@ const Footer = () => {
         </div>
 
         <div className="copyright">
-          Copyright 2023 Dscode | All rights reserved
+          Copyright 2026 Dscode | All rights reserved
         </div>
       </div>
     </div>
